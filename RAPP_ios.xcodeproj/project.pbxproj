@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F15661728806C6C00FFA8B6 /* ConsultorioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F15661628806C6C00FFA8B6 /* ConsultorioController.swift */; };
+		0F1566192880701B00FFA8B6 /* BoletinesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1566182880701B00FFA8B6 /* BoletinesController.swift */; };
+		0F3F0700286B6A3100933472 /* FondoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F06FF286B6A3000933472 /* FondoController.swift */; };
+		0F4278CE286E01100046DB23 /* VerNotasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4278CD286E01100046DB23 /* VerNotasController.swift */; };
+		0F4AC392286F59E30006E1A0 /* ObservatorioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AC391286F59E30006E1A0 /* ObservatorioController.swift */; };
+		0F4AC394286F5C6D0006E1A0 /* ObservatorioPDFController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AC393286F5C6D0006E1A0 /* ObservatorioPDFController.swift */; };
+		0F4C5FA7284924C200732DA8 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4C5FA6284924C200732DA8 /* WebViewController.swift */; };
+		0F67C012287F14CC000A9705 /* YouTubeParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67C011287F14CC000A9705 /* YouTubeParser.swift */; };
+		0F8D981F2888677C0005B3F8 /* PruebaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8D981E2888677C0005B3F8 /* PruebaViewController.swift */; };
+		0F8FCD182875E2BC003AB935 /* InternacionalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8FCD172875E2BC003AB935 /* InternacionalController.swift */; };
+		0FBF6676284E426E009FCB82 /* CapacitacionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBF6675284E426E009FCB82 /* CapacitacionController.swift */; };
+		0FCDF173287DE20E006CBE5A /* YouTubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCDF172287DE20E006CBE5A /* YouTubeViewController.swift */; };
+		0FCDF175287E296C006CBE5A /* VideoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCDF174287E296C006CBE5A /* VideoList.swift */; };
+		0FD0716C288777A400D6F09E /* BoletinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD0716B288777A400D6F09E /* BoletinViewController.swift */; };
+		0FD30D452846720600FEC897 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD30D442846720600FEC897 /* MainViewController.swift */; };
+		0FD30D4828467CFA00FEC897 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD30D4728467CFA00FEC897 /* Posts.swift */; };
+		0FD30D4B2846D67300FEC897 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD30D4A2846D67300FEC897 /* Parser.swift */; };
+		0FE0EC49287C67A8007E67E1 /* VerDosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0EC48287C67A8007E67E1 /* VerDosViewController.swift */; };
+		0FE0EC4B287C8ECD007E67E1 /* InternacionlPDFController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0EC4A287C8ECD007E67E1 /* InternacionlPDFController.swift */; };
+		0FED7FF428748D8D00173230 /* CapacitacionNotasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FED7FF328748D8D00173230 /* CapacitacionNotasController.swift */; };
+		0FEF6D202833F82200C7B6EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEF6D1F2833F82200C7B6EE /* AppDelegate.swift */; };
+		0FEF6D222833F82200C7B6EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEF6D212833F82200C7B6EE /* SceneDelegate.swift */; };
+		0FEF6D242833F82200C7B6EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEF6D232833F82200C7B6EE /* ViewController.swift */; };
+		0FEF6D272833F82200C7B6EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FEF6D252833F82200C7B6EE /* Main.storyboard */; };
+		0FEF6D2A2833F82200C7B6EE /* RAPP_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FEF6D282833F82200C7B6EE /* RAPP_ios.xcdatamodeld */; };
+		0FEF6D2C2833F82600C7B6EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FEF6D2B2833F82600C7B6EE /* Assets.xcassets */; };
+		0FEF6D2F2833F82600C7B6EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FEF6D2D2833F82600C7B6EE /* LaunchScreen.storyboard */; };
+		0FEF6D3A2833F82700C7B6EE /* RAPP_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEF6D392833F82700C7B6EE /* RAPP_iosTests.swift */; };
+		0FEF6D442833F82700C7B6EE /* RAPP_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEF6D432833F82700C7B6EE /* RAPP_iosUITests.swift */; };
+		0FEF6D462833F82700C7B6EE /* RAPP_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEF6D452833F82700C7B6EE /* RAPP_iosUITestsLaunchTests.swift */; };
+		1D1533274C0D8E0FD552C073 /* Pods_RAPP_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78637E63B4AFC4B627FCB73E /* Pods_RAPP_ios.framework */; };
+		B76779CD665E54293378B04C /* Pods_RAPP_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530754772564C0D164E5EA8D /* Pods_RAPP_iosTests.framework */; };
+		BC38C34D6BD0B2850A675495 /* Pods_RAPP_ios_RAPP_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4249472288353EB55BBB9491 /* Pods_RAPP_ios_RAPP_iosUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FEF6D362833F82700C7B6EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FEF6D142833F82100C7B6EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FEF6D1B2833F82100C7B6EE;
+			remoteInfo = RAPP_ios;
+		};
+		0FEF6D402833F82700C7B6EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FEF6D142833F82100C7B6EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FEF6D1B2833F82100C7B6EE;
+			remoteInfo = RAPP_ios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06FDADF8668A449D37FAD852 /* Pods-RAPP_ios-RAPP_iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAPP_ios-RAPP_iosUITests.release.xcconfig"; path = "Target Support Files/Pods-RAPP_ios-RAPP_iosUITests/Pods-RAPP_ios-RAPP_iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0F15661628806C6C00FFA8B6 /* ConsultorioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultorioController.swift; sourceTree = "<group>"; };
+		0F1566182880701B00FFA8B6 /* BoletinesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoletinesController.swift; sourceTree = "<group>"; };
+		0F3F06FF286B6A3000933472 /* FondoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FondoController.swift; sourceTree = "<group>"; };
+		0F4278CD286E01100046DB23 /* VerNotasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerNotasController.swift; sourceTree = "<group>"; };
+		0F4AC391286F59E30006E1A0 /* ObservatorioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservatorioController.swift; sourceTree = "<group>"; };
+		0F4AC393286F5C6D0006E1A0 /* ObservatorioPDFController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservatorioPDFController.swift; sourceTree = "<group>"; };
+		0F4C5FA6284924C200732DA8 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		0F67C011287F14CC000A9705 /* YouTubeParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeParser.swift; sourceTree = "<group>"; };
+		0F8D981E2888677C0005B3F8 /* PruebaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaViewController.swift; sourceTree = "<group>"; };
+		0F8FCD172875E2BC003AB935 /* InternacionalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternacionalController.swift; sourceTree = "<group>"; };
+		0FBF6675284E426E009FCB82 /* CapacitacionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapacitacionController.swift; sourceTree = "<group>"; };
+		0FCDF172287DE20E006CBE5A /* YouTubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeViewController.swift; sourceTree = "<group>"; };
+		0FCDF174287E296C006CBE5A /* VideoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoList.swift; sourceTree = "<group>"; };
+		0FD0716B288777A400D6F09E /* BoletinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoletinViewController.swift; sourceTree = "<group>"; };
+		0FD30D442846720600FEC897 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0FD30D4728467CFA00FEC897 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		0FD30D4A2846D67300FEC897 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		0FE0EC48287C67A8007E67E1 /* VerDosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerDosViewController.swift; sourceTree = "<group>"; };
+		0FE0EC4A287C8ECD007E67E1 /* InternacionlPDFController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternacionlPDFController.swift; sourceTree = "<group>"; };
+		0FED7FF328748D8D00173230 /* CapacitacionNotasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapacitacionNotasController.swift; sourceTree = "<group>"; };
+		0FEF6D1C2833F82200C7B6EE /* RAPP_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAPP_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FEF6D1F2833F82200C7B6EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0FEF6D212833F82200C7B6EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0FEF6D232833F82200C7B6EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0FEF6D262833F82200C7B6EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0FEF6D292833F82200C7B6EE /* RAPP_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RAPP_ios.xcdatamodel; sourceTree = "<group>"; };
+		0FEF6D2B2833F82600C7B6EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FEF6D2E2833F82600C7B6EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0FEF6D302833F82600C7B6EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FEF6D352833F82700C7B6EE /* RAPP_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAPP_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FEF6D392833F82700C7B6EE /* RAPP_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAPP_iosTests.swift; sourceTree = "<group>"; };
+		0FEF6D3F2833F82700C7B6EE /* RAPP_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAPP_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FEF6D432833F82700C7B6EE /* RAPP_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAPP_iosUITests.swift; sourceTree = "<group>"; };
+		0FEF6D452833F82700C7B6EE /* RAPP_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAPP_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F44F99475E0C7CB5305E045 /* Pods-RAPP_ios-RAPP_iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAPP_ios-RAPP_iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-RAPP_ios-RAPP_iosUITests/Pods-RAPP_ios-RAPP_iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4249472288353EB55BBB9491 /* Pods_RAPP_ios_RAPP_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAPP_ios_RAPP_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		530754772564C0D164E5EA8D /* Pods_RAPP_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAPP_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62172EC934274B662975728C /* Pods-RAPP_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAPP_ios.debug.xcconfig"; path = "Target Support Files/Pods-RAPP_ios/Pods-RAPP_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		78637E63B4AFC4B627FCB73E /* Pods_RAPP_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAPP_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A139930D29E25DD57253F58C /* Pods-RAPP_iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAPP_iosTests.debug.xcconfig"; path = "Target Support Files/Pods-RAPP_iosTests/Pods-RAPP_iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF2FD19818700DCB5F7E8FC0 /* Pods-RAPP_iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAPP_iosTests.release.xcconfig"; path = "Target Support Files/Pods-RAPP_iosTests/Pods-RAPP_iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		EF37A58B6756EAB0E481D304 /* Pods-RAPP_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAPP_ios.release.xcconfig"; path = "Target Support Files/Pods-RAPP_ios/Pods-RAPP_ios.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FEF6D192833F82100C7B6EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1533274C0D8E0FD552C073 /* Pods_RAPP_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FEF6D322833F82700C7B6EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76779CD665E54293378B04C /* Pods_RAPP_iosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FEF6D3C2833F82700C7B6EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC38C34D6BD0B2850A675495 /* Pods_RAPP_ios_RAPP_iosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FD30D4628467CDC00FEC897 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0FD30D4728467CFA00FEC897 /* Posts.swift */,
+				0FCDF174287E296C006CBE5A /* VideoList.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0FD30D492846D65E00FEC897 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0FD30D4A2846D67300FEC897 /* Parser.swift */,
+				0F67C011287F14CC000A9705 /* YouTubeParser.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0FEF6D132833F82100C7B6EE = {
+			isa = PBXGroup;
+			children = (
+				0FEF6D1E2833F82200C7B6EE /* RAPP_ios */,
+				0FEF6D382833F82700C7B6EE /* RAPP_iosTests */,
+				0FEF6D422833F82700C7B6EE /* RAPP_iosUITests */,
+				0FEF6D1D2833F82200C7B6EE /* Products */,
+				D12BD1CB82461F863B2AC15D /* Pods */,
+				3F9E109A9A0953BFDE0B111C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0FEF6D1D2833F82200C7B6EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FEF6D1C2833F82200C7B6EE /* RAPP_ios.app */,
+				0FEF6D352833F82700C7B6EE /* RAPP_iosTests.xctest */,
+				0FEF6D3F2833F82700C7B6EE /* RAPP_iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FEF6D1E2833F82200C7B6EE /* RAPP_ios */ = {
+			isa = PBXGroup;
+			children = (
+				0FD30D492846D65E00FEC897 /* ViewModel */,
+				0FD30D4628467CDC00FEC897 /* model */,
+				0FEF6D1F2833F82200C7B6EE /* AppDelegate.swift */,
+				0FEF6D212833F82200C7B6EE /* SceneDelegate.swift */,
+				0FEF6D232833F82200C7B6EE /* ViewController.swift */,
+				0FEF6D252833F82200C7B6EE /* Main.storyboard */,
+				0FEF6D2B2833F82600C7B6EE /* Assets.xcassets */,
+				0FEF6D2D2833F82600C7B6EE /* LaunchScreen.storyboard */,
+				0FEF6D302833F82600C7B6EE /* Info.plist */,
+				0FEF6D282833F82200C7B6EE /* RAPP_ios.xcdatamodeld */,
+				0FD30D442846720600FEC897 /* MainViewController.swift */,
+				0F4C5FA6284924C200732DA8 /* WebViewController.swift */,
+				0FBF6675284E426E009FCB82 /* CapacitacionController.swift */,
+				0F3F06FF286B6A3000933472 /* FondoController.swift */,
+				0F4278CD286E01100046DB23 /* VerNotasController.swift */,
+				0F4AC391286F59E30006E1A0 /* ObservatorioController.swift */,
+				0F4AC393286F5C6D0006E1A0 /* ObservatorioPDFController.swift */,
+				0FED7FF328748D8D00173230 /* CapacitacionNotasController.swift */,
+				0F8FCD172875E2BC003AB935 /* InternacionalController.swift */,
+				0FE0EC48287C67A8007E67E1 /* VerDosViewController.swift */,
+				0FE0EC4A287C8ECD007E67E1 /* InternacionlPDFController.swift */,
+				0FCDF172287DE20E006CBE5A /* YouTubeViewController.swift */,
+				0F15661628806C6C00FFA8B6 /* ConsultorioController.swift */,
+				0F1566182880701B00FFA8B6 /* BoletinesController.swift */,
+				0FD0716B288777A400D6F09E /* BoletinViewController.swift */,
+				0F8D981E2888677C0005B3F8 /* PruebaViewController.swift */,
+			);
+			path = RAPP_ios;
+			sourceTree = "<group>";
+		};
+		0FEF6D382833F82700C7B6EE /* RAPP_iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				0FEF6D392833F82700C7B6EE /* RAPP_iosTests.swift */,
+			);
+			path = RAPP_iosTests;
+			sourceTree = "<group>";
+		};
+		0FEF6D422833F82700C7B6EE /* RAPP_iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0FEF6D432833F82700C7B6EE /* RAPP_iosUITests.swift */,
+				0FEF6D452833F82700C7B6EE /* RAPP_iosUITestsLaunchTests.swift */,
+			);
+			path = RAPP_iosUITests;
+			sourceTree = "<group>";
+		};
+		3F9E109A9A0953BFDE0B111C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78637E63B4AFC4B627FCB73E /* Pods_RAPP_ios.framework */,
+				4249472288353EB55BBB9491 /* Pods_RAPP_ios_RAPP_iosUITests.framework */,
+				530754772564C0D164E5EA8D /* Pods_RAPP_iosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D12BD1CB82461F863B2AC15D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62172EC934274B662975728C /* Pods-RAPP_ios.debug.xcconfig */,
+				EF37A58B6756EAB0E481D304 /* Pods-RAPP_ios.release.xcconfig */,
+				3F44F99475E0C7CB5305E045 /* Pods-RAPP_ios-RAPP_iosUITests.debug.xcconfig */,
+				06FDADF8668A449D37FAD852 /* Pods-RAPP_ios-RAPP_iosUITests.release.xcconfig */,
+				A139930D29E25DD57253F58C /* Pods-RAPP_iosTests.debug.xcconfig */,
+				EF2FD19818700DCB5F7E8FC0 /* Pods-RAPP_iosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FEF6D1B2833F82100C7B6EE /* RAPP_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FEF6D492833F82700C7B6EE /* Build configuration list for PBXNativeTarget "RAPP_ios" */;
+			buildPhases = (
+				48A71A2899F5EE7B3CAD9A2B /* [CP] Check Pods Manifest.lock */,
+				0FEF6D182833F82100C7B6EE /* Sources */,
+				0FEF6D192833F82100C7B6EE /* Frameworks */,
+				0FEF6D1A2833F82100C7B6EE /* Resources */,
+				7E2EDE9A06A5AB27D28A6CF8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAPP_ios;
+			productName = RAPP_ios;
+			productReference = 0FEF6D1C2833F82200C7B6EE /* RAPP_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0FEF6D342833F82700C7B6EE /* RAPP_iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FEF6D4C2833F82700C7B6EE /* Build configuration list for PBXNativeTarget "RAPP_iosTests" */;
+			buildPhases = (
+				9F293B65123DDF701E6F8930 /* [CP] Check Pods Manifest.lock */,
+				0FEF6D312833F82700C7B6EE /* Sources */,
+				0FEF6D322833F82700C7B6EE /* Frameworks */,
+				0FEF6D332833F82700C7B6EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FEF6D372833F82700C7B6EE /* PBXTargetDependency */,
+			);
+			name = RAPP_iosTests;
+			productName = RAPP_iosTests;
+			productReference = 0FEF6D352833F82700C7B6EE /* RAPP_iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0FEF6D3E2833F82700C7B6EE /* RAPP_iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FEF6D4F2833F82700C7B6EE /* Build configuration list for PBXNativeTarget "RAPP_iosUITests" */;
+			buildPhases = (
+				CF66B02D45AE569DE2D4F38F /* [CP] Check Pods Manifest.lock */,
+				0FEF6D3B2833F82700C7B6EE /* Sources */,
+				0FEF6D3C2833F82700C7B6EE /* Frameworks */,
+				0FEF6D3D2833F82700C7B6EE /* Resources */,
+				FE7D5700C4E9410DE205C4CF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FEF6D412833F82700C7B6EE /* PBXTargetDependency */,
+			);
+			name = RAPP_iosUITests;
+			productName = RAPP_iosUITests;
+			productReference = 0FEF6D3F2833F82700C7B6EE /* RAPP_iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FEF6D142833F82100C7B6EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0FEF6D1B2833F82100C7B6EE = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					0FEF6D342833F82700C7B6EE = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 0FEF6D1B2833F82100C7B6EE;
+					};
+					0FEF6D3E2833F82700C7B6EE = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 0FEF6D1B2833F82100C7B6EE;
+					};
+				};
+			};
+			buildConfigurationList = 0FEF6D172833F82100C7B6EE /* Build configuration list for PBXProject "RAPP_ios" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FEF6D132833F82100C7B6EE;
+			productRefGroup = 0FEF6D1D2833F82200C7B6EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FEF6D1B2833F82100C7B6EE /* RAPP_ios */,
+				0FEF6D342833F82700C7B6EE /* RAPP_iosTests */,
+				0FEF6D3E2833F82700C7B6EE /* RAPP_iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FEF6D1A2833F82100C7B6EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEF6D2F2833F82600C7B6EE /* LaunchScreen.storyboard in Resources */,
+				0FEF6D2C2833F82600C7B6EE /* Assets.xcassets in Resources */,
+				0FEF6D272833F82200C7B6EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FEF6D332833F82700C7B6EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FEF6D3D2833F82700C7B6EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48A71A2899F5EE7B3CAD9A2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RAPP_ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E2EDE9A06A5AB27D28A6CF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RAPP_ios/Pods-RAPP_ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RAPP_ios/Pods-RAPP_ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RAPP_ios/Pods-RAPP_ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F293B65123DDF701E6F8930 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RAPP_iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF66B02D45AE569DE2D4F38F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RAPP_ios-RAPP_iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE7D5700C4E9410DE205C4CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RAPP_ios-RAPP_iosUITests/Pods-RAPP_ios-RAPP_iosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RAPP_ios-RAPP_iosUITests/Pods-RAPP_ios-RAPP_iosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RAPP_ios-RAPP_iosUITests/Pods-RAPP_ios-RAPP_iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FEF6D182833F82100C7B6EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBF6676284E426E009FCB82 /* CapacitacionController.swift in Sources */,
+				0FEF6D242833F82200C7B6EE /* ViewController.swift in Sources */,
+				0F4AC392286F59E30006E1A0 /* ObservatorioController.swift in Sources */,
+				0FD0716C288777A400D6F09E /* BoletinViewController.swift in Sources */,
+				0FEF6D202833F82200C7B6EE /* AppDelegate.swift in Sources */,
+				0FEF6D2A2833F82200C7B6EE /* RAPP_ios.xcdatamodeld in Sources */,
+				0FD30D4828467CFA00FEC897 /* Posts.swift in Sources */,
+				0FEF6D222833F82200C7B6EE /* SceneDelegate.swift in Sources */,
+				0FE0EC4B287C8ECD007E67E1 /* InternacionlPDFController.swift in Sources */,
+				0FE0EC49287C67A8007E67E1 /* VerDosViewController.swift in Sources */,
+				0F1566192880701B00FFA8B6 /* BoletinesController.swift in Sources */,
+				0F8D981F2888677C0005B3F8 /* PruebaViewController.swift in Sources */,
+				0FD30D452846720600FEC897 /* MainViewController.swift in Sources */,
+				0FD30D4B2846D67300FEC897 /* Parser.swift in Sources */,
+				0FCDF175287E296C006CBE5A /* VideoList.swift in Sources */,
+				0F15661728806C6C00FFA8B6 /* ConsultorioController.swift in Sources */,
+				0F4AC394286F5C6D0006E1A0 /* ObservatorioPDFController.swift in Sources */,
+				0FCDF173287DE20E006CBE5A /* YouTubeViewController.swift in Sources */,
+				0F3F0700286B6A3100933472 /* FondoController.swift in Sources */,
+				0F4278CE286E01100046DB23 /* VerNotasController.swift in Sources */,
+				0F67C012287F14CC000A9705 /* YouTubeParser.swift in Sources */,
+				0F8FCD182875E2BC003AB935 /* InternacionalController.swift in Sources */,
+				0FED7FF428748D8D00173230 /* CapacitacionNotasController.swift in Sources */,
+				0F4C5FA7284924C200732DA8 /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FEF6D312833F82700C7B6EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEF6D3A2833F82700C7B6EE /* RAPP_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FEF6D3B2833F82700C7B6EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEF6D462833F82700C7B6EE /* RAPP_iosUITestsLaunchTests.swift in Sources */,
+				0FEF6D442833F82700C7B6EE /* RAPP_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FEF6D372833F82700C7B6EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FEF6D1B2833F82100C7B6EE /* RAPP_ios */;
+			targetProxy = 0FEF6D362833F82700C7B6EE /* PBXContainerItemProxy */;
+		};
+		0FEF6D412833F82700C7B6EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FEF6D1B2833F82100C7B6EE /* RAPP_ios */;
+			targetProxy = 0FEF6D402833F82700C7B6EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0FEF6D252833F82200C7B6EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FEF6D262833F82200C7B6EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0FEF6D2D2833F82600C7B6EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FEF6D2E2833F82600C7B6EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FEF6D472833F82700C7B6EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0FEF6D482833F82700C7B6EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FEF6D4A2833F82700C7B6EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62172EC934274B662975728C /* Pods-RAPP_ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = L77STRB26A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RAPP_ios/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RAPP;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fundacion.rapp.RAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0FEF6D4B2833F82700C7B6EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF37A58B6756EAB0E481D304 /* Pods-RAPP_ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = L77STRB26A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RAPP_ios/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RAPP;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fundacion.rapp.RAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0FEF6D4D2833F82700C7B6EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A139930D29E25DD57253F58C /* Pods-RAPP_iosTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L77STRB26A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fundacion.rapp.RAPP-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAPP_ios.app/RAPP_ios";
+			};
+			name = Debug;
+		};
+		0FEF6D4E2833F82700C7B6EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF2FD19818700DCB5F7E8FC0 /* Pods-RAPP_iosTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L77STRB26A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fundacion.rapp.RAPP-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAPP_ios.app/RAPP_ios";
+			};
+			name = Release;
+		};
+		0FEF6D502833F82700C7B6EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F44F99475E0C7CB5305E045 /* Pods-RAPP_ios-RAPP_iosUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L77STRB26A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fundacion.rapp.RAPP-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RAPP_ios;
+			};
+			name = Debug;
+		};
+		0FEF6D512833F82700C7B6EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06FDADF8668A449D37FAD852 /* Pods-RAPP_ios-RAPP_iosUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L77STRB26A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fundacion.rapp.RAPP-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RAPP_ios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FEF6D172833F82100C7B6EE /* Build configuration list for PBXProject "RAPP_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FEF6D472833F82700C7B6EE /* Debug */,
+				0FEF6D482833F82700C7B6EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FEF6D492833F82700C7B6EE /* Build configuration list for PBXNativeTarget "RAPP_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FEF6D4A2833F82700C7B6EE /* Debug */,
+				0FEF6D4B2833F82700C7B6EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FEF6D4C2833F82700C7B6EE /* Build configuration list for PBXNativeTarget "RAPP_iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FEF6D4D2833F82700C7B6EE /* Debug */,
+				0FEF6D4E2833F82700C7B6EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FEF6D4F2833F82700C7B6EE /* Build configuration list for PBXNativeTarget "RAPP_iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FEF6D502833F82700C7B6EE /* Debug */,
+				0FEF6D512833F82700C7B6EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0FEF6D282833F82200C7B6EE /* RAPP_ios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0FEF6D292833F82200C7B6EE /* RAPP_ios.xcdatamodel */,
+			);
+			currentVersion = 0FEF6D292833F82200C7B6EE /* RAPP_ios.xcdatamodel */;
+			path = RAPP_ios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0FEF6D142833F82100C7B6EE /* Project object */;
+}
